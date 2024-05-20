@@ -4,6 +4,18 @@
 
 <table>
 <tr><th>Part Number</th><th>Download Link</th></tr>
+<tr><td>2171790001</td><td>
+
+[ul_2171790001.zip](https://app.ultralibrarian.com/details/b6ea985d-a10c-11eb-9033-0a34d6323d74/Molex-Connector-Corporation/2171790001)
+
+<dl>
+<dt>Symbol</dt><dd>Normal View, 2171790001 1</dd>
+<dt>Footprint</dt><dd>Basic View, 2171790001_MOL</dd>
+<dt>Select Your CAD Format</dt><dd>3D CAD Model: STEP, KiCAD v6+</dd>
+<dt>Symbol Pin Ordering</dt><dd>Sequential</dd>
+<dt>Footprint Units</dt><dd>English (mil)</dd>
+</dl>
+</td></tr>
 <tr><td>AD8403ARUZ1-REEL</td><td>
 
 [LIB_AD8403ARUZ1-REEL.zip](https://componentsearchengine.com/part-view/AD8403ARUZ1-REEL/Analog%20Devices)

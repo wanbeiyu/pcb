@@ -11,4 +11,5 @@
   (lib (name "W25Q16JVUXIQ")(type "KiCad")(uri "${KIPRJMOD}/3rd_party/LIB_W25Q16JVUXIQ/W25Q16JVUXIQ/KiCad")(options "")(descr ""))
   (lib (name "XCL103D503CR-G")(type "KiCad")(uri "${KIPRJMOD}/3rd_party/LIB_XCL103D503CR-G/XCL103D503CR-G/KiCad")(options "")(descr ""))
   (lib (name "NCP167AMX330TBG")(type "KiCad")(uri "${KIPRJMOD}/3rd_party/ul_NCP167AMX330TBG/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "2171790001")(type "KiCad")(uri "${KIPRJMOD}/3rd_party/ul_2171790001/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

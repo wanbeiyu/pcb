@@ -81,6 +81,23 @@ libraries: list[_Library] = [
         ],
     ),
     (
+        pathlib.Path("3rd_party/ul_2171790001.zip"),
+        [
+            (
+                re.compile(r"KiCADv6/\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}\.kicad_sym"),
+                "5af652fd7901813f653c5aa65c51c81227b191e688f94f7cd08e41e5b74cb35e",
+            ),
+            (
+                re.compile(r"KiCADv6/footprints\.pretty/2171790001_MOL\.kicad_mod"),
+                "7309c34f68cca23daf23a16d6ca0b9f60f4c8d939e589655fa3ab12ad6391ff5",
+            ),
+            (
+                re.compile(r"2171790001\.stp"),
+                "413570c4766b2c88fffffaa8c87c7a4e65dd61550dd9700f9fe5feba5daf01b7",
+            ),
+        ],
+    ),
+    (
         pathlib.Path("3rd_party/LIB_AD8403ARUZ1-REEL.zip"),
         [
             (
@@ -267,6 +284,10 @@ for library in libraries:
 # The filename of the kicad_sym downloaded from Ultra Librarian is the datetime of the download and changes every time.
 for path in [
     pathlib.Path(filename)
-    for filename in glob.glob("3rd_party/ul_NCP167AMX330TBG/KiCADv6/*.kicad_sym")
+    for filename in glob.glob("3rd_party/ul_*/KiCADv6/*.kicad_sym")
 ]:
-    shutil.move(path, path.parent / "NCP167AMX330TBG.kicad_sym")
+    match = re.search(r"ul_(.+?)/", str(path.as_posix()))
+    assert match is not None
+
+    new_filename = match.group(1) + ".kicad_sym"
+    shutil.move(path, path.parent / new_filename)
