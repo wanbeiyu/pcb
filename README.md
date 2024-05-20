@@ -1,4 +1,4 @@
-# 部品選定メモ
+# PCB
 
 ## 3rd_party libraries
 
@@ -68,7 +68,9 @@
 </td></tr>
 </table>
 
-## 電源
+## 部品選定メモ
+
+### 電源
 
 New 3DS LLには5V以上の電源を引き出せるTPはない（電源接続時4.38V、バッテリー駆動時3.92V、消耗時は3.1V程度まで低下）。5Vに昇圧→3.3Vに降圧する。
 
@@ -115,7 +117,7 @@ New 3DS LLには5V以上の電源を引き出せるTPはない（電源接続時
 
 600mA以上出ていればどれでもよさそうだ。[NCP167AMX330TBG](https://www.digikey.jp/ja/products/detail/onsemi/NCP167AMX330TBG/9169759)が十分小さい。
 
-## 発振回路
+### 発振回路
 
 [AEL X12M000000S096](https://abracon.com/datasheets/AEL-Crystals/PN/X12M000000S096.pdf)が元の水晶[^1]。
 
