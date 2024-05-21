@@ -26,14 +26,11 @@
 [LIB_ADG801BRTZ-REEL7.zip](https://componentsearchengine.com/part-view/ADG801BRTZ-REEL7/Analog%20Devices)
 
 </td></tr>
-<tr><td>AWSCR-12.00CELA-C33-T3</td><td>
+<tr><td>AWSCR-12.00CELA-C10-T3</td><td>
+
+C33なら存在する。シンボルのプロパティから「値」「Manufacturer_Part_Number」を編集し、「データシート」「説明」「Mouser Part Number」「Mouser Price/Stock」「Arrow Part Number」「Arrow Price/Stock」の内容を削除の上、PCBA時にC10を指定する。
 
 [LIB_AWSCR-12.00CELA-C33-T3.zip](https://componentsearchengine.com/part-view/AWSCR-12.00CELA-C33-T3/ABRACON)
-
-</td></tr>
-<tr><td>BSS138</td><td>
-
-[LIB_BSS138.zip](https://componentsearchengine.com/part-view/BSS138/onsemi)
 
 </td></tr>
 <tr><td>DS4424N+T&R</td><td>
@@ -142,9 +139,9 @@ New 3DS LLには5V以上の電源を引き出せるTPはない（電源接続時
 
 [検索結果](https://www.digikey.jp/short/p5qp35qr)
 
-Operating Temperature（`CELA`は85度まで、`CELB`は125度まで）、静電容量（33pF／10pF）を選択する。[Hardware design with RP2040](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)では27pFを使っているので、より近い33pFを選択する。
+Operating Temperature（`CELA`は85度まで、`CELB`は125度まで）、静電容量（33pF／10pF）を選択する。以前の設計では10pFを用いたので、今回も10pF+1kΩ抵抗で使用する。
 
-[AWSCR-12.00CELA-C33-T3](https://www.digikey.jp/short/5r7mjdv3)
+[AWSCR-12.00CELA-C10-T3](https://www.digikey.jp/short/t2mnvzrp)
 
 ## フルカラーLED
 

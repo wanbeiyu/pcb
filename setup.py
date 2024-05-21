@@ -149,23 +149,6 @@ libraries: list[_Library] = [
         ],
     ),
     (
-        pathlib.Path("3rd_party/LIB_BSS138.zip"),
-        [
-            (
-                re.compile(r"BSS138/KiCad/BSS138\.kicad_sym"),
-                "909ba084cbbc628005bd7a6dd4b06d66176fce0c492efae5452776b94d3bd792",
-            ),
-            (
-                re.compile(r"BSS138/KiCad/SOT95P240X120-3N\.kicad_mod"),
-                "63839a1c4e9cad7e5c5cee320a188bf8187a67f238e6d64f167abc8be3dce896",
-            ),
-            (
-                re.compile(r"BSS138/3D/BSS138\.stp"),
-                "daf493d1a6784611bef25646a1312f62df3f926541ffdecfd9b5aedd2a55488a",
-            ),
-        ],
-    ),
-    (
         pathlib.Path("3rd_party/LIB_DS4424N+T&R.zip"),
         [
             (
