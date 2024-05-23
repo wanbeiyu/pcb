@@ -15,6 +15,9 @@
 <dt>Symbol Pin Ordering</dt><dd>Sequential</dd>
 <dt>Footprint Units</dt><dd>English (mil)</dd>
 </dl>
+
+フットプリントは作り直した。
+
 </td></tr>
 <tr><td>AD8403ARUZ1-REEL</td><td>
 

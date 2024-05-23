@@ -1,0 +1,198 @@
+(footprint "2171790001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.07 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "510d66a7-1373-4f0f-b110-1e6293a25485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2171790001"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35cdbdf4-098f-47a8-b3db-549b2b6da65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "2171790001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dcc6ab3-1c89-40ba-a145-4d9b6e57d9d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21a53a59-7374-4a5d-bb8c-51bf870bdaee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f8f423f-1c9d-42f3-b2d8-21dabf021594")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00fffbcc-4d2e-4625-9150-9125de003924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1/B12" thru_hole oval
+		(at -4.32 1.15)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc34905f-9efc-44e2-bc5f-b880c5fb4436")
+	)
+	(pad "A1/B12" thru_hole oval
+		(at -4.32 5.15)
+		(size 1 2.2)
+		(drill oval 0.6 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29290c6c-a234-48dd-96f8-e42c5acdc8f9")
+	)
+	(pad "A1/B12" smd rect
+		(at -3.2 0.575)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ed4c23f0-2268-4f37-9b14-17fb7e6a713d")
+	)
+	(pad "A4/B9" smd rect
+		(at -2.4 0.575)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9a3f73c8-9a58-46a6-a838-ccb391b7a4d8")
+	)
+	(pad "A5" smd rect
+		(at -1.25 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "294e0960-0058-49e2-914a-7962d055df4c")
+	)
+	(pad "A6" smd rect
+		(at -0.25 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "57322ef0-e967-4a31-9269-86c707628d6a")
+	)
+	(pad "A7" smd rect
+		(at 0.25 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1400d71a-49fd-4e9b-9259-b5c2cd115e75")
+	)
+	(pad "A8" smd rect
+		(at 1.25 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6b1aaa6-9285-4c66-8f4a-fab4bc0b0daa")
+	)
+	(pad "B1/A12" smd rect
+		(at 3.2 0.575)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32ba1fd6-f2d1-4655-8191-a41bf466fe32")
+	)
+	(pad "B1/A12" thru_hole oval
+		(at 4.32 1.15)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c7de5bd-3d53-433d-bf5d-b348c6ab7d14")
+	)
+	(pad "B1/A12" thru_hole oval
+		(at 4.32 5.15)
+		(size 1 2.2)
+		(drill oval 0.6 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36c0350e-cae9-41af-9df8-03229aebfb98")
+	)
+	(pad "B4/A9" smd rect
+		(at 2.4 0.575)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f439744d-b6dd-4cbb-876b-eb9c900a7f1c")
+	)
+	(pad "B5" smd rect
+		(at 1.75 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e648177-09fa-4142-b1de-00d8f6c2c2a2")
+	)
+	(pad "B6" smd rect
+		(at 0.75 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "966126a2-b7f2-40b5-bc80-91d985a189f2")
+	)
+	(pad "B7" smd rect
+		(at -0.75 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f50cbf24-ea5b-4bb8-8eca-ea88a96b3909")
+	)
+	(pad "B8" smd rect
+		(at -1.75 0.575)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a0d47e6-7420-4331-a06f-2b1db17498d4")
+	)
+	(model "${KIPRJMOD}/3rd_party/ul_2171790001/2171790001.stp"
+		(offset
+			(xyz 0 -3.85 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 0)
+		)
+	)
+)
