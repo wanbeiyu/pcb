@@ -9859,16 +9859,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 72.39) (xy 64.77 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "730d772b-bc3b-47ce-b8e7-a887bb6092c3")
-	)
-	(wire
-		(pts
 			(xy 95.25 138.43) (xy 95.25 137.16)
 		)
 		(stroke
@@ -10236,16 +10226,6 @@
 			(type default)
 		)
 		(uuid "8b020e3e-a9ce-4e4f-a556-52ab743d482e")
-	)
-	(wire
-		(pts
-			(xy 64.77 67.31) (xy 54.61 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b610f75-d6ca-48bc-a68d-20145928875b")
 	)
 	(wire
 		(pts
@@ -11459,6 +11439,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 69.85) (xy 64.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1350f1-be6a-4eb0-886a-9cf261fed2cb")
+	)
+	(wire
+		(pts
 			(xy 101.6 250.19) (xy 90.17 250.19)
 		)
 		(stroke
@@ -11756,6 +11746,16 @@
 			(type default)
 		)
 		(uuid "f0981c07-8d57-4990-ad96-948263175a50")
+	)
+	(wire
+		(pts
+			(xy 64.77 69.85) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bbd4bf-cfa4-45a3-adf0-47ffd6dd5a1a")
 	)
 	(wire
 		(pts
@@ -12396,6 +12396,17 @@
 		)
 		(uuid "2705b10a-d6de-4b61-ba4a-fd16140cdc3d")
 	)
+	(label "USB_VBUS_"
+		(at 54.61 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b0b8208-9d21-4ce3-baa8-38770e070fd9")
+	)
 	(label "QSPI_SD0"
 		(at 248.92 81.28 180)
 		(fields_autoplaced yes)
@@ -12516,17 +12527,6 @@
 			(justify right bottom)
 		)
 		(uuid "3a2e7e27-a430-4465-b609-de444f487422")
-	)
-	(label "USB_VBUS_"
-		(at 54.61 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b2cbfc3-dfb2-40d4-ba1c-f0866c910c7f")
 	)
 	(label "SPI_CS_5V"
 		(at 351.79 218.44 0)
@@ -12880,17 +12880,6 @@
 		)
 		(uuid "74f8e5bd-4840-4aeb-b429-fb7b46651a23")
 	)
-	(label "USB_DN_"
-		(at 54.61 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7641fba0-5628-4585-81a0-446e5d710d37")
-	)
 	(label "3DS_BTN14"
 		(at 299.72 93.98 0)
 		(fields_autoplaced yes)
@@ -13066,6 +13055,17 @@
 			(justify left bottom)
 		)
 		(uuid "8c91d229-6d0e-4242-9dfd-fdc30b42482b")
+	)
+	(label "USB_DP_"
+		(at 54.61 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8eda3f79-64c9-4228-8bb4-50c03604a7ee")
 	)
 	(label "SPY_RAW"
 		(at 173.99 194.31 270)
@@ -13243,17 +13243,6 @@
 		)
 		(uuid "9fe1da0d-abf0-45f7-b4ec-b37d4c6d9228")
 	)
-	(label "USB_DP_"
-		(at 54.61 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a19c1f0d-04d3-4786-a053-c8b8b4326ef0")
-	)
 	(label "VINC+"
 		(at 68.58 187.96 0)
 		(fields_autoplaced yes)
@@ -13352,6 +13341,17 @@
 			(justify left bottom)
 		)
 		(uuid "b1846e2a-9a9e-4c01-91a6-af3d8c1f191c")
+	)
+	(label "USB_DN_"
+		(at 54.61 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4e13c18-212a-447d-93c2-13a781952e3a")
 	)
 	(label "3DS_SPY"
 		(at 365.76 115.57 0)
@@ -15465,7 +15465,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 125.73 184.15 270)
+		(at 125.73 184.15 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15475,7 +15475,7 @@
 		(fields_autoplaced yes)
 		(uuid "380d5f26-5daa-4de1-98c6-7bd8c709d129")
 		(property "Reference" "C6"
-			(at 125.7236 179.07 90)
+			(at 125.7363 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15483,7 +15483,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 125.7236 181.61 90)
+			(at 125.7363 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21349,7 +21349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 72.39 0)
+		(at 64.77 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21358,7 +21358,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca5a1250-ecf7-42a6-8aa0-1f639e3725b7")
 		(property "Reference" "#PWR04"
-			(at 64.77 78.74 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21367,7 +21367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 77.47 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21375,7 +21375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 72.39 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21384,7 +21384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 72.39 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21393,7 +21393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 72.39 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
