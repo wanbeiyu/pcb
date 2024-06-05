@@ -14625,7 +14625,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 179.07 218.44 270)
+		(at 179.07 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
