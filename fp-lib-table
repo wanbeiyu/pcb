@@ -14,4 +14,5 @@
   (lib (name "5055503020")(type "KiCad")(uri "${KIPRJMOD}/lib/5055503020/5055503020.pretty")(options "")(descr ""))
   (lib (name "my_2171790001")(type "KiCad")(uri "${KIPRJMOD}/lib/my_2171790001/my_2171790001.pretty")(options "")(descr ""))
   (lib (name "conn")(type "KiCad")(uri "${KIPRJMOD}/lib/conn/conn.pretty")(options "")(descr ""))
+  (lib (name "MouseBites_2.54")(type "KiCad")(uri "${KIPRJMOD}/lib/MouseBites_2.54.pretty")(options "")(descr ""))
 )

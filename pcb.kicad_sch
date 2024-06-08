@@ -12001,6 +12001,17 @@
 		)
 		(uuid "056b8479-6dc1-4ab6-a7de-5b6cf21abaf2")
 	)
+	(label "3DS_TSXP"
+		(at 353.06 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05faf605-829e-4783-b27a-12bf354d88c7")
+	)
 	(label "3DS_BTN15"
 		(at 353.06 90.17 180)
 		(fields_autoplaced yes)
@@ -12177,6 +12188,17 @@
 		)
 		(uuid "18a0cb97-b5aa-4ca1-9fce-ce10abff4046")
 	)
+	(label "3DS_TSYP"
+		(at 353.06 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18b13397-96b1-4b94-8605-e490e16ea0ea")
+	)
 	(label "3DS_BTN1"
 		(at 299.72 60.96 0)
 		(fields_autoplaced yes)
@@ -12297,17 +12319,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b0b8208-9d21-4ce3-baa8-38770e070fd9")
-	)
-	(label "3DS_TSXP"
-		(at 353.06 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b1fcd5b-5cc0-4f50-bb1b-63deb12b7c6a")
 	)
 	(label "QSPI_SD0"
 		(at 248.92 81.28 180)
@@ -12540,6 +12551,17 @@
 		)
 		(uuid "437361e6-79ed-42ad-9b58-922275db5bd6")
 	)
+	(label "3DS_TSXM"
+		(at 353.06 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45d111b3-3ecf-4098-b03b-445218c2b0e0")
+	)
 	(label "3DS_BTN2"
 		(at 299.72 63.5 0)
 		(fields_autoplaced yes)
@@ -12638,17 +12660,6 @@
 			(justify left bottom)
 		)
 		(uuid "57b7e7a1-d6ab-45d9-adc3-636ff8e6a6ab")
-	)
-	(label "3DS_TSYP"
-		(at 353.06 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b7794f8-21c2-4e60-b72b-6b64afff46aa")
 	)
 	(label "3DS_BTN11"
 		(at 299.72 86.36 0)
@@ -12759,17 +12770,6 @@
 			(justify right bottom)
 		)
 		(uuid "7398da4b-1522-4b68-b89e-6c746b98f348")
-	)
-	(label "3DS_TSYM"
-		(at 353.06 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7472215c-49e8-4e7f-8241-aee92f0961a2")
 	)
 	(label "AGND"
 		(at 283.21 185.42 0)
@@ -12902,17 +12902,6 @@
 			(justify left bottom)
 		)
 		(uuid "83234f42-9252-4daf-a81b-7580fddaa4cc")
-	)
-	(label "3DS_TSXM"
-		(at 353.06 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8559aae4-5778-4a39-939f-2333a82bdda8")
 	)
 	(label "3DS_TSYP"
 		(at 252.73 180.34 180)
@@ -13243,6 +13232,17 @@
 			(justify left bottom)
 		)
 		(uuid "b4e13c18-212a-447d-93c2-13a781952e3a")
+	)
+	(label "3DS_TSYM"
+		(at 353.06 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5f6247a-75db-4d06-8ec9-f3c6b7936569")
 	)
 	(label "LED_DIN"
 		(at 377.19 218.44 180)
